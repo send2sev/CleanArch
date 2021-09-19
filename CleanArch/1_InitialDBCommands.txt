@@ -1,0 +1,8 @@
+Open Nuget console
+Make sure the connection string name in appsettings.json matches the connection string name in Startup.cs
+
+Then run the commands below in nuget console
+add-migration "InitialMigration" -Context ApplicationDbContext
+update-database
+
+Make sure to change the profile from IISExpress to CleanArch.Mvc and run the application

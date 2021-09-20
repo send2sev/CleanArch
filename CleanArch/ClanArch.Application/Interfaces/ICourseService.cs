@@ -1,6 +1,6 @@
-﻿using ClanArch.Application.ViewModels;
+﻿using CleanArch.Application.ViewModels;
 
-namespace ClanArch.Application.Interfaces
+namespace CleanArch.Application.Interfaces
 {
     public interface ICourseService
     {

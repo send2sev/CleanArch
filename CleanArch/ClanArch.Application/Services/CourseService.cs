@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using ClanArch.Application.Interfaces;
-using ClanArch.Application.ViewModels;
+﻿using CleanArch.Application.Interfaces;
+using CleanArch.Application.ViewModels;
 using CleanArch.Domain.Interfaces;
 
-namespace ClanArch.Application.Services
+namespace CleanArch.Application.Services
 {
     public class CourseService : ICourseService
     {
